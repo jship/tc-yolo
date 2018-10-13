@@ -1,0 +1,26 @@
+name: tc-yolo
+version: '0.0.1'
+github: "jship/tc-yolo"
+license: MIT
+author: "Jason Shipman"
+maintainer: "Jason Shipman"
+synopsis: Yoloooooooooo
+description: yolo yolo yolo
+category: Other
+
+extra-source-files:
+- LICENSE.md
+- package.yaml
+- README.md
+- stack.yaml
+
+library:
+  source-dirs: library
+  dependencies:
+  - base
+  - ghc
+  - random
+  - transformers
+  ghc-options:
+  - -Wall
+  - -Werror
